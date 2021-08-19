@@ -8,8 +8,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Add this loader.
 add_action( 'underpin/before_setup', function ( $file, $class ) {
-	$class = get_class( Underpin\underpin()->get( $file ) );
-
 	if ( ! defined( 'UNDERPIN_POST_TEMPLATES_ROOT_DIR' ) ) {
 		define( 'UNDERPIN_POST_TEMPLATES_ROOT_DIR', plugin_dir_path( __FILE__ ) );
 	}
