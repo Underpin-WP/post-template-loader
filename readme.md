@@ -25,7 +25,7 @@ Underpin, it should work as-expected.
 A very basic example could look something like this.
 
 ```php
-\Underpin\underpin()->post_templates()->add( 'example-batch', [
+\Underpin\underpin()->post_templates()->add( 'template', [
   'name'     => 'Template Name', // Shows in dropdown
   'template' => 'template-name' // Shows when post template is fetched, and in REST
 ] );
