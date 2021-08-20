@@ -51,8 +51,7 @@ abstract class Post_Template {
 	 */
 	public function register_project_templates( $atts ) {
 
-		// Create the key used for the themes cache
-		$cache_key = 'page_templates-' . md5( get_theme_root() . '/' . get_stylesheet() );
+		$cache_key = 'post_templates-' . md5( get_theme_root() . '/' . get_stylesheet() );
 
 		// Retrieve the cache list.
 		// If it doesn't exist, or it's empty prepare an array

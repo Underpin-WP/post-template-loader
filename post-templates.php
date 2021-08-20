@@ -17,8 +17,8 @@ add_action( 'underpin/before_setup', function ( $file, $class ) {
 
 	// Register the loader
 	Underpin\underpin()->get( $file, $class )->loaders()->add( 'post_templates', [
-		'default'  => 'Underpin_Post_Templates\Abstracts\Post_Template',
-		'instance' => 'Underpin_Post_Templates\Factories\Post_Template_Instance',
+		'instance'  => 'Underpin_Post_Templates\Abstracts\Post_Template',
+		'default'   => 'Underpin_Post_Templates\Factories\Post_Template_Instance',
 	] );
 
 }, 10, 2 );
