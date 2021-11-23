@@ -9,9 +9,13 @@
       "email": "a@alexstandiford.com"
     }
   ],
+  "require": {
+    "underpin/underpin": "^2.0"
+  },
   "autoload": {
+    "psr-4": {"Underpin\\Post_Templates\\":  "lib/"},
     "files": [
-      "post-templates.php"
+      "bootstrap.php"
     ]
   }
 }

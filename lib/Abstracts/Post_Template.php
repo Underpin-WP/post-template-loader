@@ -7,7 +7,7 @@
  */
 
 
-namespace Underpin_Post_Templates\Abstracts;
+namespace Underpin\Post_Templates\Abstracts;
 
 
 use Underpin\Traits\Feature_Extension;
